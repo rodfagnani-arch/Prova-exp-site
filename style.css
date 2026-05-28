@@ -25,6 +25,17 @@ color: #D3D3D3;
     width: auto;
     border-radius: 15px;
 }
+.skyrim-img{
+    height: 400px;
+    width: auto;
+    border-radius: 15px;
+}
+
+.mine-img{
+    height: 400px;
+    width: auto;
+    border-radius: 15px;
+}
 
 .card-jogo:hover{
     filter: grayscale(100%);
