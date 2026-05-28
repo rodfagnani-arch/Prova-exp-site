@@ -1,10 +1,31 @@
 html {
     scrollbar-width: none;
-    display: flex;
-
+    overflow-x: hidden;
+    text-align: center;
+    background:linear-gradient(270deg, black, #338b85);
 }
 
-.card-jogo{
+body {
+margin: 0;
+font-size: 17px;
+font-family: 'Poppins,sans-serif';
+line-height: 2;
+color: #D3D3D3;
+}
 
+.uncharted-img{
+    height: 400px;
+    width: auto;
+    border: red;
+    border-radius: 15px;
+}
 
+.batman-img{
+    height: 400px;
+    width: auto;
+    border-radius: 15px;
+}
+
+.card-jogo:hover{
+    filter: grayscale(100%);
 }
